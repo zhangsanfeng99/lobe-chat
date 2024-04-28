@@ -2,6 +2,706 @@
 
 # Changelog
 
+### [Version 0.150.5](https://github.com/lobehub/lobe-chat/compare/v0.150.4...v0.150.5)
+
+<sup>Released on **2024-04-27**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix the plugin string env and search error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix the plugin string env and search error, closes [#2239](https://github.com/lobehub/lobe-chat/issues/2239) ([74b1ae0](https://github.com/lobehub/lobe-chat/commit/74b1ae0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.150.4](https://github.com/lobehub/lobe-chat/compare/v0.150.3...v0.150.4)
+
+<sup>Released on **2024-04-27**</sup>
+
+#### 💄 Styles
+
+- **misc**: Hide default model tag and show ollama provider by default.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Hide default model tag and show ollama provider by default, closes [#2238](https://github.com/lobehub/lobe-chat/issues/2238) ([baa4780](https://github.com/lobehub/lobe-chat/commit/baa4780))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.150.3](https://github.com/lobehub/lobe-chat/compare/v0.150.2...v0.150.3)
+
+<sup>Released on **2024-04-27**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix docker build.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix docker build, closes [#2236](https://github.com/lobehub/lobe-chat/issues/2236) ([749a843](https://github.com/lobehub/lobe-chat/commit/749a843))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.150.2](https://github.com/lobehub/lobe-chat/compare/v0.150.1...v0.150.2)
+
+<sup>Released on **2024-04-27**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix display error when using `DEFAULT_AGENT_CONFIG` env.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix display error when using `DEFAULT_AGENT_CONFIG` env, closes [#2231](https://github.com/lobehub/lobe-chat/issues/2231) ([42bc734](https://github.com/lobehub/lobe-chat/commit/42bc734))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.150.1](https://github.com/lobehub/lobe-chat/compare/v0.150.0...v0.150.1)
+
+<sup>Released on **2024-04-27**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix display error when using DEFAULT_AGENT_CONFIG env.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix display error when using DEFAULT_AGENT_CONFIG env ([e46215c](https://github.com/lobehub/lobe-chat/commit/e46215c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 0.150.0](https://github.com/lobehub/lobe-chat/compare/v0.149.6...v0.150.0)
+
+<sup>Released on **2024-04-26**</sup>
+
+#### ✨ Features
+
+- **misc**: Support feature flags.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support feature flags, closes [#2213](https://github.com/lobehub/lobe-chat/issues/2213) ([4532be5](https://github.com/lobehub/lobe-chat/commit/4532be5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.149.6](https://github.com/lobehub/lobe-chat/compare/v0.149.5...v0.149.6)
+
+<sup>Released on **2024-04-26**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix ollama host issue.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix ollama host issue, closes [#2210](https://github.com/lobehub/lobe-chat/issues/2210) ([c49d4c7](https://github.com/lobehub/lobe-chat/commit/c49d4c7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.149.5](https://github.com/lobehub/lobe-chat/compare/v0.149.4...v0.149.5)
+
+<sup>Released on **2024-04-25**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Sperate SessionStore to a new AgentStore.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix not handle ollama error correctly.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Sperate SessionStore to a new AgentStore, closes [#2197](https://github.com/lobehub/lobe-chat/issues/2197) ([49c0ba6](https://github.com/lobehub/lobe-chat/commit/49c0ba6))
+
+#### What's fixed
+
+- **misc**: Fix not handle ollama error correctly ([efdf174](https://github.com/lobehub/lobe-chat/commit/efdf174))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.149.4](https://github.com/lobehub/lobe-chat/compare/v0.149.3...v0.149.4)
+
+<sup>Released on **2024-04-25**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix chat client request not support abort.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix chat client request not support abort, closes [#2193](https://github.com/lobehub/lobe-chat/issues/2193) ([d22ef2c](https://github.com/lobehub/lobe-chat/commit/d22ef2c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.149.3](https://github.com/lobehub/lobe-chat/compare/v0.149.2...v0.149.3)
+
+<sup>Released on **2024-04-25**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add displaying the message "Reset Successfully.".
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add displaying the message "Reset Successfully.", closes [#2158](https://github.com/lobehub/lobe-chat/issues/2158) ([27913ef](https://github.com/lobehub/lobe-chat/commit/27913ef))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.149.2](https://github.com/lobehub/lobe-chat/compare/v0.149.1...v0.149.2)
+
+<sup>Released on **2024-04-24**</sup>
+
+#### 💄 Styles
+
+- **misc**: Support to create ai message.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Support to create ai message, closes [#2185](https://github.com/lobehub/lobe-chat/issues/2185) ([ba3ba6a](https://github.com/lobehub/lobe-chat/commit/ba3ba6a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.149.1](https://github.com/lobehub/lobe-chat/compare/v0.149.0...v0.149.1)
+
+<sup>Released on **2024-04-24**</sup>
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 0.149.0](https://github.com/lobehub/lobe-chat/compare/v0.148.10...v0.149.0)
+
+<sup>Released on **2024-04-24**</sup>
+
+#### ✨ Features
+
+- **misc**: Fully support ollama with browser request mode.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Fully support ollama with browser request mode, closes [#2168](https://github.com/lobehub/lobe-chat/issues/2168) ([562d189](https://github.com/lobehub/lobe-chat/commit/562d189))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.148.10](https://github.com/lobehub/lobe-chat/compare/v0.148.9...v0.148.10)
+
+<sup>Released on **2024-04-24**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Ollama model 240421.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Ollama model 240421, closes [#2130](https://github.com/lobehub/lobe-chat/issues/2130) ([e797af0](https://github.com/lobehub/lobe-chat/commit/e797af0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.148.9](https://github.com/lobehub/lobe-chat/compare/v0.148.8...v0.148.9)
+
+<sup>Released on **2024-04-23**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor for session server mode.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor for session server mode, closes [#2163](https://github.com/lobehub/lobe-chat/issues/2163) ([e012597](https://github.com/lobehub/lobe-chat/commit/e012597))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.148.8](https://github.com/lobehub/lobe-chat/compare/v0.148.7...v0.148.8)
+
+<sup>Released on **2024-04-23**</sup>
+
+#### 💄 Styles
+
+- **misc**: update some `gemini` deployment restrictions.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: update some `gemini` deployment restrictions, closes [#2149](https://github.com/lobehub/lobe-chat/issues/2149) ([6d36863](https://github.com/lobehub/lobe-chat/commit/6d36863))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.148.7](https://github.com/lobehub/lobe-chat/compare/v0.148.6...v0.148.7)
+
+<sup>Released on **2024-04-23**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix qwen-1.5-chat-72B context window in togetherai.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix qwen-1.5-chat-72B context window in togetherai, closes [#2142](https://github.com/lobehub/lobe-chat/issues/2142) ([d0753cf](https://github.com/lobehub/lobe-chat/commit/d0753cf))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.148.6](https://github.com/lobehub/lobe-chat/compare/v0.148.5...v0.148.6)
+
+<sup>Released on **2024-04-22**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Add Windows Phone, iPadOS, BlackBerry OS, Linux OS and Chrome OS sync icons.
+
+#### 💄 Styles
+
+- **misc**: Support more model Icons: dbrx, command-r, openchat, rwkv, Bert-vits2, Stable Diffusion, WizardLM, adobe firefly, skylark.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Add Windows Phone, iPadOS, BlackBerry OS, Linux OS and Chrome OS sync icons, closes [#2139](https://github.com/lobehub/lobe-chat/issues/2139) ([8ed1f07](https://github.com/lobehub/lobe-chat/commit/8ed1f07))
+
+#### Styles
+
+- **misc**: Support more model Icons: dbrx, command-r, openchat, rwkv, Bert-vits2, Stable Diffusion, WizardLM, adobe firefly, skylark, closes [#2107](https://github.com/lobehub/lobe-chat/issues/2107) ([4268d8b](https://github.com/lobehub/lobe-chat/commit/4268d8b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.148.5](https://github.com/lobehub/lobe-chat/compare/v0.148.4...v0.148.5)
+
+<sup>Released on **2024-04-22**</sup>
+
+#### 💄 Styles
+
+- **misc**: Support together ai to fetch model list.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Support together ai to fetch model list, closes [#2138](https://github.com/lobehub/lobe-chat/issues/2138) ([e6d3e4a](https://github.com/lobehub/lobe-chat/commit/e6d3e4a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.148.4](https://github.com/lobehub/lobe-chat/compare/v0.148.3...v0.148.4)
+
+<sup>Released on **2024-04-21**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix model list menu not display correctly.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix model list menu not display correctly, closes [#2133](https://github.com/lobehub/lobe-chat/issues/2133) ([98c844b](https://github.com/lobehub/lobe-chat/commit/98c844b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.148.3](https://github.com/lobehub/lobe-chat/compare/v0.148.2...v0.148.3)
+
+<sup>Released on **2024-04-21**</sup>
+
+#### 💄 Styles
+
+- **ollama**: Show size info while download, support cancel donwload, optimize calculation for speed.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **ollama**: Show size info while download, support cancel donwload, optimize calculation for speed, closes [#1664](https://github.com/lobehub/lobe-chat/issues/1664) ([9b18f47](https://github.com/lobehub/lobe-chat/commit/9b18f47))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.148.2](https://github.com/lobehub/lobe-chat/compare/v0.148.1...v0.148.2)
+
+<sup>Released on **2024-04-21**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add LLaMA 3 in groq + Mixtral 8x22B model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add LLaMA 3 in groq + Mixtral 8x22B model, closes [#2128](https://github.com/lobehub/lobe-chat/issues/2128) ([6144448](https://github.com/lobehub/lobe-chat/commit/6144448))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.148.1](https://github.com/lobehub/lobe-chat/compare/v0.148.0...v0.148.1)
+
+<sup>Released on **2024-04-20**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix topic title not auto generate.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix topic title not auto generate, closes [#2114](https://github.com/lobehub/lobe-chat/issues/2114) ([5979de3](https://github.com/lobehub/lobe-chat/commit/5979de3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 0.148.0](https://github.com/lobehub/lobe-chat/compare/v0.147.22...v0.148.0)
+
+<sup>Released on **2024-04-20**</sup>
+
+#### ✨ Features
+
+- **misc**: Support chat completion call at client side.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support chat completion call at client side, closes [#2041](https://github.com/lobehub/lobe-chat/issues/2041) ([9f5858f](https://github.com/lobehub/lobe-chat/commit/9f5858f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.147.22](https://github.com/lobehub/lobe-chat/compare/v0.147.21...v0.147.22)
+
+<sup>Released on **2024-04-19**</sup>
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.147.21](https://github.com/lobehub/lobe-chat/compare/v0.147.20...v0.147.21)
+
+<sup>Released on **2024-04-19**</sup>
+
+#### 💄 Styles
+
+- **misc**: Optimized file upload buttons and prompts.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Optimized file upload buttons and prompts, closes [#2050](https://github.com/lobehub/lobe-chat/issues/2050) ([c23087e](https://github.com/lobehub/lobe-chat/commit/c23087e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.147.20](https://github.com/lobehub/lobe-chat/compare/v0.147.19...v0.147.20)
+
+<sup>Released on **2024-04-18**</sup>
+
+#### 💄 Styles
+
+- **misc**: Improve aync session experience.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Improve aync session experience, closes [#2075](https://github.com/lobehub/lobe-chat/issues/2075) ([0f3b19b](https://github.com/lobehub/lobe-chat/commit/0f3b19b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.147.19](https://github.com/lobehub/lobe-chat/compare/v0.147.18...v0.147.19)
+
+<sup>Released on **2024-04-18**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add M and B support max token in ModelInfoTags.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add M and B support max token in ModelInfoTags, closes [#2073](https://github.com/lobehub/lobe-chat/issues/2073) ([a985d8f](https://github.com/lobehub/lobe-chat/commit/a985d8f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 0.147.18](https://github.com/lobehub/lobe-chat/compare/v0.147.17...v0.147.18)
 
 <sup>Released on **2024-04-17**</sup>
