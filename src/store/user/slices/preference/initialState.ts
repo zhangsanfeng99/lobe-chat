@@ -1,19 +1,6 @@
+import { DEFAULT_PREFERENCE } from '@/const/user';
+import { UserPreference } from '@/types/user';
 import { AsyncLocalStorage } from '@/utils/localStorage';
-
-export interface Guide {
-  // Topic 引导
-  topic?: boolean;
-}
-
-export interface UserPreference {
-  guide?: Guide;
-  hideSyncAlert?: boolean;
-  telemetry: boolean | null;
-  /**
-   * whether to use cmd + enter to send message
-   */
-  useCmdEnterToSend?: boolean;
-}
 
 export interface UserPreferenceState {
   isPreferenceInit: boolean;
@@ -26,10 +13,6 @@ export interface UserPreferenceState {
 
 export const initialPreferenceState: UserPreferenceState = {
   isPreferenceInit: false,
-  preference: {
-    guide: {},
-    telemetry: null,
-    useCmdEnterToSend: false,
-  },
+  preference: DEFAULT_PREFERENCE,
   preferenceStorage: new AsyncLocalStorage('LOBE_PREFERENCE'),
 };

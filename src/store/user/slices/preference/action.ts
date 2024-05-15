@@ -1,17 +1,17 @@
 import { SWRResponse } from 'swr';
 import type { StateCreator } from 'zustand/vanilla';
 
+import { DEFAULT_PREFERENCE } from '@/const/user';
 import { useClientDataSWR } from '@/libs/swr';
 import type { UserStore } from '@/store/user';
+import { UserGuide, UserPreference } from '@/types/user';
 import { merge } from '@/utils/merge';
 import { setNamespace } from '@/utils/storeDebug';
-
-import type { Guide, UserPreference } from './initialState';
 
 const n = setNamespace('preference');
 
 export interface PreferenceAction {
-  updateGuideState: (guide: Partial<Guide>) => void;
+  updateGuideState: (guide: Partial<UserGuide>) => void;
   updatePreference: (preference: Partial<UserPreference>, action?: any) => void;
   useInitPreference: () => SWRResponse;
 }
@@ -41,7 +41,13 @@ export const createPreferenceSlice: StateCreator<
       () => get().preferenceStorage.getFromLocalStorage(),
       {
         onSuccess: (preference) => {
-          set({ isPreferenceInit: true, preference }, false, n('initPreference'));
+          const isEmpty = Object.keys(preference).length === 0;
+
+          set(
+            { isPreferenceInit: true, preference: isEmpty ? DEFAULT_PREFERENCE : preference },
+            false,
+            n('initPreference'),
+          );
         },
       },
     ),
