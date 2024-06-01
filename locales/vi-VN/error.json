@@ -12,6 +12,8 @@
     "retry": "Thử lại",
     "title": "Trang gặp một chút vấn đề.."
   },
+  "fetchError": "Yêu cầu thất bại",
+  "fetchErrorDetail": "Chi tiết lỗi",
   "notFound": {
     "backHome": "Quay về Trang chủ",
     "desc": "Chúng tôi không thể tìm thấy trang bạn đang tìm, vui lòng kiểm tra xem liên kết có đúng không",
@@ -134,5 +136,9 @@
       "apiKey": "Khóa API tùy chỉnh",
       "password": "Mật khẩu"
     }
+  },
+  "upload": {
+    "desc": "Chi tiết: {{detail}}",
+    "title": "Tải lên tệp thất bại, vui lòng kiểm tra kết nối mạng hoặc thử lại sau"
   }
 }

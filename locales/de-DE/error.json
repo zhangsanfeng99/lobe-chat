@@ -12,6 +12,8 @@
     "retry": "Erneut laden",
     "title": "Ein Problem ist aufgetreten auf der Seite.."
   },
+  "fetchError": "Anforderung fehlgeschlagen",
+  "fetchErrorDetail": "Fehlerdetails",
   "notFound": {
     "backHome": "Zurück zur Startseite",
     "desc": "Die von Ihnen gesuchte Seite konnte nicht gefunden werden. Bitte überprüfen Sie, ob der Link korrekt ist.",
@@ -134,5 +136,9 @@
       "apiKey": "Benutzerdefinierter API-Schlüssel",
       "password": "Passwort"
     }
+  },
+  "upload": {
+    "desc": "Details: {{detail}}",
+    "title": "Dateiupload fehlgeschlagen. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es später erneut."
   }
 }

@@ -12,6 +12,8 @@
     "retry": "Tentar novamente",
     "title": "Ocorreu um problema na página.."
   },
+  "fetchError": "Falha na solicitação",
+  "fetchErrorDetail": "Detalhes do erro",
   "notFound": {
     "backHome": "Voltar para a página inicial",
     "desc": "Não conseguimos encontrar a página que você está procurando, por favor, verifique se o link está correto",
@@ -134,5 +136,9 @@
       "apiKey": "Chave de API personalizada",
       "password": "Senha"
     }
+  },
+  "upload": {
+    "desc": "Detalhes: {{detail}}",
+    "title": "Falha ao enviar o arquivo, verifique a conexão de rede ou tente novamente mais tarde"
   }
 }

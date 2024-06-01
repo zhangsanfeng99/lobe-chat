@@ -12,6 +12,8 @@
     "retry": "Recharger",
     "title": "Un problème est survenu sur la page.."
   },
+  "fetchError": "Échec de la requête",
+  "fetchErrorDetail": "Détails de l'erreur",
   "notFound": {
     "backHome": "Retour à la page d'accueil",
     "desc": "La page que vous recherchez est introuvable. Veuillez vérifier si le lien est correct.",
@@ -134,5 +136,9 @@
       "apiKey": "Clé API personnalisée",
       "password": "Mot de passe"
     }
+  },
+  "upload": {
+    "desc": "Détails : {{detail}}",
+    "title": "Échec de l'envoi du fichier, veuillez vérifier votre connexion réseau ou réessayer plus tard"
   }
 }
